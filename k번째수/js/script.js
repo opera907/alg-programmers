@@ -10,16 +10,17 @@ function solution(array, commands) {
     for(let i=0; i < commands.length; i++){
         let target = commands.filter((elem, index) => index === i)[0]
 
-        const sliceFir = target[0]
-        const sliceSec = target[1]
-        const nNum = target[2]
+        // const sliceFir = target[0]
+        // const sliceSec = target[1]
+        // const nNum = target[2]
+        // const resultArry = sortFun(sliceFir, sliceSec, nNum)
 
-        const resultArry = sortFun(sliceFir, sliceSec, nNum)
-
+        const resultArry = sortFun(...target)
          answer.push(resultArry) 
 
 
     }
+    return answer
 
     function sortFun (sliceFir, sliceSec, nNum) {
         const arrySliced = array.slice((sliceFir - 1), sliceSec)
@@ -28,5 +29,4 @@ function solution(array, commands) {
         return arrySliced[(nNum - 1)]
     }
 
-    return answer
-    }
+}
