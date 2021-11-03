@@ -1,7 +1,4 @@
 function solution(answers) {
-    //1번과 답 비교 , 2번과 답 비교, 3번과 답비교
-    //answers 일치함 -> 결과값 
-    //answers과 가장 많이 일치함 -> 결과값에서 가장 긴배열찾고 
     
     var answer = [];
     //수포자 답변
@@ -35,4 +32,3 @@ function solution(answers) {
     return answer
 
 }
-// 오류난 이유 1 -> answer[i] == mine[i % mine.length]k
