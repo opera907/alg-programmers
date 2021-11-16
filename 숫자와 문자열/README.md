@@ -16,16 +16,18 @@ https://programmers.co.kr/learn/courses/30/lessons/81301
 
 ## 문제
 
-1.replaceAll()이 지원이 안되서 repalce()를 쓰려면 정규표현식을 써줘야함
+1.replaceAll()이 지원이 안되서 replace()를 쓰려면 정규표현식을 써줘야함
 
 2.replace() 리턴값을 s가 업뎃하지 못했음 
     문자가 치환될때마다 업뎃되기 위해 변수에 담아야함 
     s자체로 이용하면 치환하고 다시 바뀌지 않은 원문자열에 또 바꾸고의 반복
     나는 s자체에 갱신이 될 줄 알았는데
+https://jumbled-caravan-283.notion.site/8d77fc1231dd434f82da79c4044f67df
 
 ## 주요 학습 키워드
 
-1.replace()와 정규표현식 / match()와 정규표현식
+1.정규표현식
+https://jumbled-caravan-283.notion.site/Study-9096a29a02db469e99438a3a2b62ceed
 
 2. split()와 join()의 활용
 
